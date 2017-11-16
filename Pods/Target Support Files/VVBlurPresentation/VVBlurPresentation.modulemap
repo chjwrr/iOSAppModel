@@ -1,0 +1,6 @@
+framework module VVBlurPresentation {
+  umbrella header "VVBlurPresentation-umbrella.h"
+
+  export *
+  module * { export * }
+}
