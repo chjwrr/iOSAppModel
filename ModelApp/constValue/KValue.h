@@ -62,6 +62,8 @@ iPhone X         5.8吋       375x812         @3x          1125x2436
 
 #define kNAVIGATIONBAR_STATUS_HEIGHT    (kNAVIGATIONBAR_HEIGHT+kSTATUSBAR_HEIGHT)
 
+#define kTABBAR_BOTTOM_HEIGHT           (iPhoneX ? 34 : 0)
+
 #define kAPPDELEGATE                    (AppDelegate *)[UIApplication sharedApplication].delegate
 
 
