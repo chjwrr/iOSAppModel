@@ -49,17 +49,20 @@ iPhone X         5.8吋       375x812         @3x          1125x2436
 #define iPhoneX             ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 
 
+
 // iPhoneX　安全区域=812px—Status Bar (44px) +Home Indicator(34px)
 
-#define kTABBAR_HEIGHT            (iPhoneX ? 34 + 49 : 49)
+#define kTABBAR_HEIGHT                  (iPhoneX ? 34 + 49 : 49)
 
-#define kNAVIGATIONBAR_HEIGHT     44
+#define kNAVIGATIONBAR_HEIGHT           44
 
-#define kSTATUSBAR_HEIGHT         (iPhoneX ? 44 : 20)
+#define kSTATUSBAR_HEIGHT               (iPhoneX ? 44 : 20)
 
-#define kTBABARVIEW_TAG           10086
+#define kTBABARVIEW_TAG                 10086
 
-#define kAPPDELEGATE (AppDelegate *)[UIApplication sharedApplication].delegate
+#define kNAVIGATIONBAR_STATUS_HEIGHT    (kNAVIGATIONBAR_HEIGHT+kSTATUSBAR_HEIGHT)
+
+#define kAPPDELEGATE                    (AppDelegate *)[UIApplication sharedApplication].delegate
 
 
 
