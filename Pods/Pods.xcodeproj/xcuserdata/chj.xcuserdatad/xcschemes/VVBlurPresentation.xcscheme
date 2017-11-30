@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DC692F3FF622196044E4495537CD45E1'
+               BlueprintIdentifier = '9D75782402DA1A4EB0A74B501F415710'
                BlueprintName = 'VVBlurPresentation'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'VVBlurPresentation.framework'>

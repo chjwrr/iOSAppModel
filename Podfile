@@ -12,7 +12,7 @@ pod 'JDStatusBarNotification'
 pod "SDWebImage"
 pod "MWPhotoBrowser"
 pod "DACircularProgress"
-pod 'Masonry'
+pod 'SDAutoLayout'
 pod 'VVBlurPresentation'
 pod 'JSONModel'
 pod 'HexColors’,’~>4.0.0’
