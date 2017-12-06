@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B5A04E109F47175A630C59A2 /* Pods_ModelApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D75EE8602B650F14A84723 /* Pods_ModelApp.framework */; };
+		C610A5161FD7DEB90074EB9C /* PodfileDes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C610A5151FD7DEB90074EB9C /* PodfileDes.rtf */; };
 		C68DFA8C1F90A2A600D81401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68DFA8B1F90A2A600D81401 /* AppDelegate.m */; };
 		C68DFA8F1F90A2A600D81401 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68DFA8E1F90A2A600D81401 /* ViewController.m */; };
 		C68DFA941F90A2A600D81401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68DFA931F90A2A600D81401 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 /* Begin PBXFileReference section */
 		764AF407B74835DCD8F3BC8B /* Pods-ModelApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModelApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModelApp/Pods-ModelApp.debug.xcconfig"; sourceTree = "<group>"; };
 		87D75EE8602B650F14A84723 /* Pods_ModelApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModelApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C610A5151FD7DEB90074EB9C /* PodfileDes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = PodfileDes.rtf; sourceTree = "<group>"; };
 		C68DFA871F90A2A600D81401 /* ModelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68DFA8A1F90A2A600D81401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C68DFA8B1F90A2A600D81401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				C68DFA931F90A2A600D81401 /* Assets.xcassets */,
 				C68DFA981F90A2A600D81401 /* Info.plist */,
 				C68DFA991F90A2A600D81401 /* main.m */,
+				C610A5151FD7DEB90074EB9C /* PodfileDes.rtf */,
 			);
 			path = ModelApp;
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68DFA941F90A2A600D81401 /* Assets.xcassets in Resources */,
+				C610A5161FD7DEB90074EB9C /* PodfileDes.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +644,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ModelApp/Pods-ModelApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
@@ -649,16 +654,19 @@
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
-				"${BUILT_PRODUCTS_DIR}/RealReachability/RealReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/VVBlurPresentation/VVBlurPresentation.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/ZYCornerRadius/ZYCornerRadius.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
@@ -668,10 +676,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VVBlurPresentation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYCornerRadius.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

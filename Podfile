@@ -7,7 +7,6 @@ pod 'MJRefresh'
 pod 'FMDB'
 pod 'FDFullscreenPopGesture'
 pod 'ZYCornerRadius'
-pod 'RealReachability'
 pod 'JDStatusBarNotification'
 pod "SDWebImage"
 pod "MWPhotoBrowser"
@@ -16,4 +15,8 @@ pod 'SDAutoLayout'
 pod 'VVBlurPresentation'
 pod 'JSONModel'
 pod 'HexColors’,’~>4.0.0’
+pod 'SDAutoLayout'
+pod 'DZNEmptyDataSet'
+pod 'ZFPlayer'
+pod 'YYCache'
 end
