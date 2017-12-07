@@ -50,8 +50,17 @@ pod 'DZNEmptyDataSet'
 pod 'ZFPlayer'
 基于AVPlayer，支持横屏、竖屏（锁定），上下滑动调节音量，屏幕亮度，左右调节播放进度
 
-pod 'YYCache'
-高性能iOS缓存框架
+pod 'YYKit'
+	▪	YYModel:：高性能的 iOS JSON 模型框架
+	▪	YYCache：高性能的 iOS 缓存框架
+	▪	YYImage: 功能强大的 iOS 图像框架
+	▪	YYWebImage：高性能的 iOS 异步图像加载框架
+	▪	YYText：功能强大的 iOS 富文本框架
+	▪	YYKeyboardManager：iOS 键盘监听管理工具
+	▪	YYDispatchQueuePool：iOS 全局并发队列管理工具
+	▪	YYAsyncLayer： iOS 异步绘制与显示工具
+	▪	YYCategories： 功能丰富的 Category 类型工具库
+
 
 
 
