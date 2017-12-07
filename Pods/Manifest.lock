@@ -36,7 +36,9 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - VVBlurPresentation (0.1.1)
-  - YYCache (1.0.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
   - ZFPlayer (2.1.5):
     - Masonry
   - ZYCornerRadius (1.0.2)
@@ -56,7 +58,7 @@ DEPENDENCIES:
   - SDAutoLayout
   - SDWebImage
   - VVBlurPresentation
-  - YYCache
+  - YYKit
   - ZFPlayer
   - ZYCornerRadius
 
@@ -77,10 +79,10 @@ SPEC CHECKSUMS:
   SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   VVBlurPresentation: 62c0a9d6ac22f9bed99c0c5735e7eae8156bc618
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a80bf8eb4638b97fbceaefcd3ca9978e9f17c9d
   ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
 
-PODFILE CHECKSUM: 9677bee9b3666fb16b5a71d0cd7ef876cd7e3300
+PODFILE CHECKSUM: 58f8704ac54714e4b9ad131c75ddca0f0ae50256
 
 COCOAPODS: 1.4.0.beta.2

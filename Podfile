@@ -18,5 +18,5 @@ pod 'HexColors’,’~>4.0.0’
 pod 'SDAutoLayout'
 pod 'DZNEmptyDataSet'
 pod 'ZFPlayer'
-pod 'YYCache'
+pod 'YYKit'
 end

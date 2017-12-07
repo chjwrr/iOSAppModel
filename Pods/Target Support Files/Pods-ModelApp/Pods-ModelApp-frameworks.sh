@@ -127,7 +127,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VVBlurPresentation/VVBlurPresentation.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZYCornerRadius/ZYCornerRadius.framework"
 fi
@@ -148,7 +148,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VVBlurPresentation/VVBlurPresentation.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZYCornerRadius/ZYCornerRadius.framework"
 fi

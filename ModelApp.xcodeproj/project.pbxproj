@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		B5A04E109F47175A630C59A2 /* Pods_ModelApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D75EE8602B650F14A84723 /* Pods_ModelApp.framework */; };
 		C610A5161FD7DEB90074EB9C /* PodfileDes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C610A5151FD7DEB90074EB9C /* PodfileDes.rtf */; };
+		C610A5181FD7FC840074EB9C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610A5171FD7FC840074EB9C /* CoreText.framework */; };
+		C610A51A1FD7FC8E0074EB9C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610A5191FD7FC8E0074EB9C /* CoreImage.framework */; };
+		C610A51C1FD7FC940074EB9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610A51B1FD7FC940074EB9C /* QuartzCore.framework */; };
+		C610A51E1FD7FC980074EB9C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610A51D1FD7FC980074EB9C /* ImageIO.framework */; };
+		C610A5201FD7FC9E0074EB9C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610A51F1FD7FC9E0074EB9C /* AssetsLibrary.framework */; };
+		C610A5221FD7FCB00074EB9C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610A5211FD7FCB00074EB9C /* MobileCoreServices.framework */; };
+		C610A5241FD7FCC00074EB9C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C610A5231FD7FCC00074EB9C /* libsqlite3.tbd */; };
 		C68DFA8C1F90A2A600D81401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68DFA8B1F90A2A600D81401 /* AppDelegate.m */; };
 		C68DFA8F1F90A2A600D81401 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68DFA8E1F90A2A600D81401 /* ViewController.m */; };
 		C68DFA941F90A2A600D81401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68DFA931F90A2A600D81401 /* Assets.xcassets */; };
@@ -66,6 +73,13 @@
 		764AF407B74835DCD8F3BC8B /* Pods-ModelApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModelApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModelApp/Pods-ModelApp.debug.xcconfig"; sourceTree = "<group>"; };
 		87D75EE8602B650F14A84723 /* Pods_ModelApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModelApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610A5151FD7DEB90074EB9C /* PodfileDes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = PodfileDes.rtf; sourceTree = "<group>"; };
+		C610A5171FD7FC840074EB9C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C610A5191FD7FC8E0074EB9C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C610A51B1FD7FC940074EB9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C610A51D1FD7FC980074EB9C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C610A51F1FD7FC9E0074EB9C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C610A5211FD7FCB00074EB9C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C610A5231FD7FCC00074EB9C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C68DFA871F90A2A600D81401 /* ModelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68DFA8A1F90A2A600D81401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C68DFA8B1F90A2A600D81401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -175,15 +189,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68DFB211F90AAC100D81401 /* CoreLocation.framework in Frameworks */,
-				C68DFB1F1F90AAB200D81401 /* Accelerate.framework in Frameworks */,
 				C68DFB1D1F90AAAC00D81401 /* libz.tbd in Frameworks */,
-				C68DFB1B1F90AAA500D81401 /* UIKit.framework in Frameworks */,
-				C68DFB191F90AAA000D81401 /* Foundation.framework in Frameworks */,
-				C68DFB171F90AA9600D81401 /* CoreGraphics.framework in Frameworks */,
+				C610A5241FD7FCC00074EB9C /* libsqlite3.tbd in Frameworks */,
 				C68DFB151F90AA8F00D81401 /* SystemConfiguration.framework in Frameworks */,
-				C68DFB131F90AA8900D81401 /* CoreTelephony.framework in Frameworks */,
+				C610A5221FD7FCB00074EB9C /* MobileCoreServices.framework in Frameworks */,
+				C68DFB1F1F90AAB200D81401 /* Accelerate.framework in Frameworks */,
+				C610A5201FD7FC9E0074EB9C /* AssetsLibrary.framework in Frameworks */,
+				C610A51E1FD7FC980074EB9C /* ImageIO.framework in Frameworks */,
+				C610A51C1FD7FC940074EB9C /* QuartzCore.framework in Frameworks */,
+				C610A51A1FD7FC8E0074EB9C /* CoreImage.framework in Frameworks */,
+				C68DFB171F90AA9600D81401 /* CoreGraphics.framework in Frameworks */,
+				C610A5181FD7FC840074EB9C /* CoreText.framework in Frameworks */,
 				C68DFB111F90AA8300D81401 /* CoreFoundation.framework in Frameworks */,
+				C68DFB1B1F90AAA500D81401 /* UIKit.framework in Frameworks */,
+				C68DFB211F90AAC100D81401 /* CoreLocation.framework in Frameworks */,
+				C68DFB191F90AAA000D81401 /* Foundation.framework in Frameworks */,
+				C68DFB131F90AA8900D81401 /* CoreTelephony.framework in Frameworks */,
 				C68DFB0F1F90AA7E00D81401 /* Security.framework in Frameworks */,
 				B5A04E109F47175A630C59A2 /* Pods_ModelApp.framework in Frameworks */,
 			);
@@ -195,6 +216,13 @@
 		7C0EF3822D538940DEEB2FD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C610A5231FD7FCC00074EB9C /* libsqlite3.tbd */,
+				C610A5211FD7FCB00074EB9C /* MobileCoreServices.framework */,
+				C610A51F1FD7FC9E0074EB9C /* AssetsLibrary.framework */,
+				C610A51D1FD7FC980074EB9C /* ImageIO.framework */,
+				C610A51B1FD7FC940074EB9C /* QuartzCore.framework */,
+				C610A5191FD7FC8E0074EB9C /* CoreImage.framework */,
+				C610A5171FD7FC840074EB9C /* CoreText.framework */,
 				C68DFB201F90AAC100D81401 /* CoreLocation.framework */,
 				C68DFB1E1F90AAB200D81401 /* Accelerate.framework */,
 				C68DFB1C1F90AAAC00D81401 /* libz.tbd */,
@@ -658,7 +686,7 @@
 				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/VVBlurPresentation/VVBlurPresentation.framework",
-				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/ZYCornerRadius/ZYCornerRadius.framework",
 			);
@@ -680,7 +708,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VVBlurPresentation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYCornerRadius.framework",
 			);

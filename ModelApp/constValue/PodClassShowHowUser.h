@@ -409,6 +409,41 @@
  */
 
 
+/**************************************  SDAutoLayout.h  使用介绍  **************************************/
+
+
+/**
+ *
+ * view.sd_layout
+ *    .leftEqualToView(self.contentView)
+ *    .topSpaceToView(self.contentView, 10)
+ *    .rightEqualToView(self.contentView)
+ *    .heightIs(200)
+ *    .widthIs([UIScreen mainScreen].bounds.size.width);
+
+ */
+
+
+
+/**************************************  DZNEmptyDataSet.h  使用介绍  **************************************/
+
+/**
+ *  第一步  - (void)setSdModel:(SDModel *)sdModel  里面  _timeLabel 是 cell 最后一个组件
+ *  [self setupAutoHeightWithBottomView:_timeLabel bottomMargin:10];
+
+ *  第二步  cellForRowAtIndexPath
+ *  cell.sdModel = [self.dataSource objectAtIndex:indexPath.row];
+
+ *  第三步  heightForRowAtIndexPath
+ *  ForIndexPath: 当前的cell的位置
+ *  model: 当前cell的数据模型（需要使用KVC进行赋值）
+ *  keyPath: 就是cell的数据模型对象，此文中就是cell.sdModel
+ *  cellClass: 就是cell的类名
+ *  contentViewWidth: cell的宽度
+ 
+ *  return [tableView cellHeightForIndexPath:indexPath model:[self.dataSource objectAtIndex:indexPath.row] keyPath:@"sdModel" cellClass:[mySDCell class] contentViewWidth:self.view.frame.size.width];
+ 
+ */
 
 
 
